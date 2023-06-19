@@ -1,0 +1,52 @@
+﻿a.navbar-brand {
+  white-space: normal;
+  text-align: center;
+  word-break: break-all;
+}
+
+html {
+  font-size: 14px;
+}
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+#header-navbar {
+    background-color: var(--col-salmon);
+}
+
+#header-title {
+    font-size: 40px;
+    margin-left: 30px;
+}
+
+#links {
+    margin-right: 40px;
+    font-size: 20px;
+}
+
+#link {
+    background-color: var(--col-dark);
+    margin-right: 5px;
+    color: var(--col-light) !important;
+    border-radius: 3px;
+}
+
+#link .bi {
+    fill: var(--col-light) !important;
+}
+
+#link:hover .bi{
+    fill: var(--col-dark) !important;
+}
+
+#link:hover {
+    background-color: var(--col-light);
+    color: var(--col-dark) !important;
+}
+
+.box-shadow {
+  box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .05);
+}

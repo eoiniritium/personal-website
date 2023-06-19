@@ -1,0 +1,17 @@
+﻿#portrait-section {
+    border: 1px solid;
+
+    width: 100%
+}
+
+#left-side {
+    float:left;
+}
+
+#right-side {
+    float: right;
+}
+
+#photo-of-eoin {
+    max-width: 25%;
+}
